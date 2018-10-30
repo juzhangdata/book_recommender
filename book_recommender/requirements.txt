@@ -1,0 +1,7 @@
+pandas
+flask
+flask_pymongo
+wtforms
+gunicorn
+scipy
+numpy

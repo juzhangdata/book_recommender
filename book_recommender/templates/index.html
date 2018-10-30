@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Reusable Form Demo</title>
+       <link rel="stylesheet" media="screen" href ="static/bootstrap.min.css">
+       <link rel="stylesheet" href="static/bootstrap-theme.min.css">
+       <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+
+
+<div class="container">
+
+
+  <h2>Meet your next favorite book here :)</h2>
+  <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <div class="form-group">
+      <label for="book_input">book title:</label>
+        <p>What are the titles of 5 books you want to rate? For example, Biker Gangs.</p>
+      <input type="text" class="form-control" id="book_input_1" name="book_input_1" placeholder="book title_1">
+      <input type="text" class="form-control" id="book_input_2" name="book_input_2" placeholder="book title_2">
+      <input type="text" class="form-control" id="book_input_3" name="book_input_3" placeholder="book title_3">
+      <input type="text" class="form-control" id="book_input_4" name="book_input_4" placeholder="book title_4">
+      <input type="text" class="form-control" id="book_input_5" name="book_input_5" placeholder="book title_5">
+
+      <br>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="form-group">
+      <label for="rating_input">book rating:</label>
+        <p>From 1 to 5, how many stars will you give these books, separately? For example, Harry Potter and the Half-Blood Prince.</p>
+      <input type="text" class="form-control" id="rating_input_1" name="rating_input_1" placeholder="book rating_1">
+      <input type="text" class="form-control" id="rating_input_2" name="rating_input_2" placeholder="book rating_2">
+      <input type="text" class="form-control" id="rating_input_3" name="rating_input_3" placeholder="book rating_3">
+      <input type="text" class="form-control" id="rating_input_4" name="rating_input_4" placeholder="book rating_4">
+      <input type="text" class="form-control" id="rating_input_5" name="rating_input_5" placeholder="book rating_5">
+
+      <br>
+
+    </div>
+
+    <br>
+    <br>
+
+    <button type="submit" class="btn btn-success"> Submit </button>
+  </form>
+
+  <br>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+
+        {% for message in messages %}
+            {% if "Error" not in message[1]: %}
+                <div class="alert alert-info">
+{#                 insert any message here before the flash of results#}
+                <strong> </strong> {{ message[1] }}
+                </div>
+            {% endif %}
+
+            {% if "Error" in message[1]: %}
+                <div class="alert alert-warning">
+                {{ message[1] }}
+                </div>
+            {% endif %}
+        {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+</div>
+<br>
+</div>
+</div>
+</body>
+</html>
