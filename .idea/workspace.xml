@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7134c966-18b7-414e-92de-b9df197626b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/1_functions.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/2_add_user.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/3_modeling.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/4_recommend.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Procfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/means.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/predicted_ratings.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/product_features.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/not_raw/all_rating.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/not_raw/new_rating.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/book_ratings_data_set_big.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/book_ratings_data_set_imdb.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/book_ratings_data_set_small.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/book_tags.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/books_big.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/books_imdb.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/books_small.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/data/raw/non_fiction_tags.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user_features.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -185,8 +162,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="245">
+          <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
           <folding>
             <element signature="e#0#66#0" expanded="true" />
           </folding>

@@ -198,6 +198,8 @@ def hello():
         print(len(user_ratings))
         book_df['rating'] = user_ratings
         book_df = book_df.sort_values(by=['rating'], ascending=False)
+        book_df = book_df[~book_df["title"].isin(book_input_list)]
+
 
         output_df = book_df[['title', 'rating']].head(10)
 
