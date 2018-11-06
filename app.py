@@ -190,8 +190,9 @@ def hello():
         predicted_ratings = pickle.load(open("predicted_ratings.dat", "rb"))
 
         print("books we will recommend:")
-        print(predicted_ratings[-1])
-        user_ratings = predicted_ratings[-1]
+        search_user_id = -1
+        print(predicted_ratings[search_user_id])
+        user_ratings = predicted_ratings[search_user_id]
 
         print(len(book_df))
         print(len(user_ratings))
